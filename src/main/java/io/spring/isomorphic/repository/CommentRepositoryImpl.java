@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package io.spring.isomorphic;
+package io.spring.isomorphic.repository;
+
+import io.spring.isomorphic.domain.Comment;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
@@ -23,7 +25,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class InMemoryCommentRepository implements CommentRepository {
+public class CommentRepositoryImpl implements CommentRepository {
 
 	private static AtomicLong counter = new AtomicLong();
 

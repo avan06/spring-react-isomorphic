@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package io.spring.isomorphic;
+package io.spring.isomorphic.repository;
+
+import io.spring.isomorphic.domain.Comment;
 
 public interface CommentRepository {
 

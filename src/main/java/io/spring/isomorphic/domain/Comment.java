@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.spring.isomorphic;
+package io.spring.isomorphic.domain;
 
 public class Comment {
 

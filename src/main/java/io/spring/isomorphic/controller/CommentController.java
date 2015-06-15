@@ -14,7 +14,10 @@
  * limitations under the License.
  */
 
-package io.spring.isomorphic;
+package io.spring.isomorphic.controller;
+
+import io.spring.isomorphic.domain.Comment;
+import io.spring.isomorphic.repository.CommentRepository;
 
 import java.io.IOException;
 import java.util.ArrayList;

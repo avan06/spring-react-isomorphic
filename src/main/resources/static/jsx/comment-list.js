@@ -3,7 +3,7 @@ var CommentList = React.createClass({
         return this.props;
     },
     componentDidMount: function() {
-        var eventSource = new EventSource("/sse/updates");
+        var eventSource = new EventSource("./sse/updates");
         var self = this;
         eventSource.onmessage = function(e) {
             var comment = JSON.parse(e.data);
